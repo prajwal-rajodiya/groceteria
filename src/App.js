@@ -25,7 +25,7 @@ function App() {
   return (
     <div>
       <ToastContainer></ToastContainer>
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Routes>
           {/* admin Routes */}
           <Route path="/adminManage" element={<AdminLayout />} />
@@ -38,7 +38,6 @@ function App() {
           <Route path="/modifyProduct" element={<AdminLayout />} />
           <Route path="/deleteProduct" element={<AdminLayout />} />
           <Route path="/allUsers" element={<AdminLayout />} />
-          
 
           {/* User Routes */}
           <Route path="/allOrders" element={<AllOrders />} />
