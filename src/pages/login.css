@@ -1,0 +1,68 @@
+.login-title {
+  color: lightgray;
+}
+
+.box {
+  background: black;
+  padding: 5%;
+  width: 70%;
+  height: 90%;
+  margin-top: 15%;
+  text-align: center;
+  box-shadow: 0px 0px 20px 0px #000;
+}
+
+.box input[type='email'],
+.box input[type='password'] {
+  border: 2px solid #3498db;
+  background: none;
+  display: block;
+  margin: 5% auto;
+  width: 75%;
+  height: 16%;
+  color: whitesmoke;
+  border-radius: 25px;
+  transition: 0.25s
+}
+
+.box input[type='email']:focus,
+.box input[type='password']:focus {
+  border-color: #2ecc71;
+  width: 100%;
+}
+
+.box button {
+  background: none;
+  margin-top: 10%;
+  border: 2px solid #2ecc71;
+  border-radius: 25px;
+  color: whitesmoke;
+  transition: 0.2s;
+  width: 35%;
+  height: 12%;
+}
+
+.box button:hover {
+  background: #2ecc71;
+  color: white;
+  font-weight: bold;
+}
+
+.card {
+  margin-bottom: 20px;
+  border: none;
+  background: none;
+}
+
+.forgot {
+  text-decoration: underline;
+  margin-top: 20px;
+}
+
+.login-image-class {
+  width: 40%;
+  height: 40%;
+}
+
+
+

@@ -1,0 +1,20 @@
+input.form-control {
+  max-width: 70%;
+}
+.sign-in-wrapper {
+  flex-direction: row;
+}
+
+.form-field {
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .sign-in-wrapper {
+    flex-direction: column;
+  }
+  .form-field {
+    margin-left: 80px;
+    
+  }
+}

@@ -1,0 +1,26 @@
+.notify {
+  position: relative;
+}
+.badge {
+  position: absolute;
+  background-color: red;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  right: 57px;
+  top: 1px;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.profile {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 1px solid gray;
+  cursor: pointer;
+  top: 10px;
+  position: absolute;
+}
