@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/groceteria/static/css/main.e343057c.css",
-    "main.js": "/groceteria/static/js/main.ebb96f7e.js",
+    "main.js": "/groceteria/static/js/main.4187d507.js",
     "static/media/prakashw.jpg": "/groceteria/static/media/prakashw.e907672d33e58b07749d.jpg",
     "static/media/faq.svg": "/groceteria/static/media/faq.3a0a6f542ca4d06aa47e2617986d8eff.svg",
     "static/media/signup.svg": "/groceteria/static/media/signup.f037ac89e64fb3583446e6449219d65b.svg",
@@ -10,10 +10,10 @@
     "static/media/forgot-pass.svg": "/groceteria/static/media/forgot-pass.513366cd6b87a9cc6dc25f3fad73c9e4.svg",
     "index.html": "/groceteria/index.html",
     "main.e343057c.css.map": "/groceteria/static/css/main.e343057c.css.map",
-    "main.ebb96f7e.js.map": "/groceteria/static/js/main.ebb96f7e.js.map"
+    "main.4187d507.js.map": "/groceteria/static/js/main.4187d507.js.map"
   },
   "entrypoints": [
     "static/css/main.e343057c.css",
-    "static/js/main.ebb96f7e.js"
+    "static/js/main.4187d507.js"
   ]
 }
